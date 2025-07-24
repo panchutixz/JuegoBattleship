@@ -20,7 +20,6 @@ public class SwingMainApplication extends JFrame {
     private JTextField serverField;
     private JTextField portField;
     private JButton connectButton;
-    private JButton ticTacToeButton;
     private JButton battleshipButton;
     private JTextArea statusArea;
     
@@ -149,7 +148,6 @@ public class SwingMainApplication extends JFrame {
             addStatus("✓ Conectado exitosamente al servidor!");
             
             connectButton.setText("Desconectar");
-            ticTacToeButton.setEnabled(true);
             battleshipButton.setEnabled(true);
             serverField.setEnabled(false);
             portField.setEnabled(false);
