@@ -31,7 +31,7 @@ public class SwingMainApplication extends JFrame {
     }
     
     private void initializeGUI() {
-        setTitle("Juegos Cliente-Servidor");
+        setTitle("BattleShip Client");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 500);
         setLocationRelativeTo(null);
