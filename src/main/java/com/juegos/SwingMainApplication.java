@@ -12,8 +12,7 @@ import java.io.*;
 /**
  * Aplicación principal con interfaz Swing para el sistema de juegos cliente-servidor.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ *
  */
 public class SwingMainApplication extends JFrame {
     
