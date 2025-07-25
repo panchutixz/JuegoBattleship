@@ -4,18 +4,16 @@ package com.juegos.common;
  * Constantes utilizadas en todo el sistema de juegos.
  * Centraliza valores como puertos, configuraciones y mensajes.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ * 
  */
 public class GameConstants {
     
     // Configuración de red
     public static final String DEFAULT_SERVER_HOST = "localhost";
-    public static final int DEFAULT_SERVER_PORT = 12345;
+    public static final int DEFAULT_SERVER_PORT = 5432; // Puerto por defecto para el servidor de juegos
     public static final int CONNECTION_TIMEOUT = 5000; // 5 segundos
     
     // Tipos de juego
-    public static final String GAME_TICTACTOE = "TICTACTOE";
     public static final String GAME_BATTLESHIP = "BATTLESHIP";
     
     // Modos de juego
@@ -43,13 +41,7 @@ public class GameConstants {
     public static final String RESULT_LOSE = "LOSE";
     public static final String RESULT_DRAW = "DRAW";
     public static final String RESULT_ABANDONED = "ABANDONED";
-    
-    // Configuración de Tic-Tac-Toe
-    public static final int TICTACTOE_BOARD_SIZE = 3;
-    public static final char TICTACTOE_EMPTY = ' ';
-    public static final char TICTACTOE_X = 'X';
-    public static final char TICTACTOE_O = 'O';
-    
+
     // Configuración de Batalla Naval
     public static final int BATTLESHIP_BOARD_SIZE = 10;
     public static final char BATTLESHIP_WATER = '~';

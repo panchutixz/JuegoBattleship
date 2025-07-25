@@ -6,14 +6,12 @@ import java.util.UUID;
  * Representa un jugador en el sistema de juegos.
  * Contiene información básica del jugador y su estado.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ * 
  */
 public class Player {
     
     private String id;              // ID único del jugador
     private String name;            // Nombre del jugador
-    private String symbol;          // Símbolo del jugador (X, O para Tic-Tac-Toe)
     private boolean isHuman;        // true si es humano, false si es IA
     private boolean isConnected;    // Estado de conexión
     private String ipAddress;       // Dirección IP del cliente
@@ -81,14 +79,6 @@ public class Player {
     
     public void setName(String name) {
         this.name = name;
-    }
-    
-    public String getSymbol() {
-        return symbol;
-    }
-    
-    public void setSymbol(String symbol) {
-        this.symbol = symbol;
     }
     
     public boolean isHuman() {
@@ -219,7 +209,7 @@ public class Player {
     
     @Override
     public String toString() {
-        return String.format("Player{id='%s', name='%s', symbol='%s', isHuman=%s, connected=%s}", 
-                           id, name, symbol, isHuman, isConnected);
+        return String.format("Player{id='%s', name='%s', isHuman=%s, connected=%s}", 
+                           id, name, isHuman, isConnected);
     }
 }

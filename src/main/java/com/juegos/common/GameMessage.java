@@ -4,13 +4,12 @@ package com.juegos.common;
  * Representa un mensaje que se envía entre cliente y servidor.
  * Contiene toda la información necesaria para la comunicación en red.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ *
  */
 public class GameMessage {
     
     private String type;           // Tipo de mensaje (ver GameConstants.MSG_*)
-    private String gameType;       // Tipo de juego (TICTACTOE, BATTLESHIP)
+    private String gameType;       // Tipo de juego (BATTLESHIP)
     private String mode;           // Modo de juego (VS_HUMAN, VS_AI)
     private String playerId;       // ID del jugador que envía el mensaje
     private Object data;           // Datos específicos del mensaje
