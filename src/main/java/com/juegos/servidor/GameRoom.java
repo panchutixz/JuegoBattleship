@@ -11,8 +11,7 @@ import java.util.logging.Logger;
  * Representa una sala de juego donde los jugadores pueden competir.
  * Maneja la lógica específica de cada tipo de juego y coordina los turnos.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ * 
  */
 public class GameRoom {
     
@@ -33,7 +32,7 @@ public class GameRoom {
     /**
      * Constructor de la sala de juego.
      * @param roomId ID único de la sala
-     * @param gameType Tipo de juego (TICTACTOE, BATTLESHIP)
+     * @param gameType Tipo de juego (BATTLESHIP)
      * @param mode Modo de juego (VS_HUMAN, VS_AI)
      */
     public GameRoom(String roomId, String gameType, String mode) {

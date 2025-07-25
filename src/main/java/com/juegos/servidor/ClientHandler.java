@@ -11,8 +11,7 @@ import java.util.logging.Level;
  * Maneja la comunicación con un cliente específico.
  * Cada cliente conectado tiene su propio ClientHandler ejecutándose en un hilo separado.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ * 
  */
 public class ClientHandler implements Runnable {
     

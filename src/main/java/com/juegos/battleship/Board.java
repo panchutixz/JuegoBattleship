@@ -9,8 +9,7 @@ import java.util.List;
  * Representa el tablero de Batalla Naval.
  * Maneja la colocación de barcos, registro de disparos y estado del juego.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ *
  */
 public class Board {
     

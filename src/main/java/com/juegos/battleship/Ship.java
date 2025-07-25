@@ -6,8 +6,7 @@ import com.juegos.common.GameConstants;
  * Representa un barco en el juego de Batalla Naval.
  * Maneja la posición, orientación y estado del barco.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ * 
  */
 public class Ship {
     

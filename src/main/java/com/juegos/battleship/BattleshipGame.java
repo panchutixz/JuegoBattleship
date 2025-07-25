@@ -7,8 +7,7 @@ import com.juegos.common.Player;
  * Implementa la lógica completa del juego Batalla Naval.
  * Maneja dos tableros (jugador y oponente) y coordina las fases del juego.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ * 
  */
 public class BattleshipGame {
     

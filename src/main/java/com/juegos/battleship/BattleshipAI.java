@@ -8,8 +8,7 @@ import java.util.*;
  * Implementa estrategias inteligentes de ataque usando algoritmos de búsqueda
  * y análisis de patrones para ser un oponente desafiante.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ *
  */
 public class BattleshipAI {
     

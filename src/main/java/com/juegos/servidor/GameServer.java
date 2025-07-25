@@ -15,8 +15,7 @@ import java.util.logging.Level;
  * Servidor principal que maneja las conexiones de los clientes y coordina los juegos.
  * Utiliza un pool de hilos para manejar múltiples clientes simultáneamente.
  * 
- * @author Equipo de Desarrollo
- * @version 1.0
+ * 
  */
 public class GameServer {
     
@@ -275,9 +274,9 @@ public class GameServer {
      * @param args Argumentos de línea de comandos
      */
     public static void main(String[] args) {
-        System.out.println("🎮 === SERVIDOR DE JUEGOS CLIENTE-SERVIDOR ===");
-        System.out.println("📅 Proyecto Final - Programación Orientada a Objetos");
-        System.out.println("🎯 Juegos: Tic-Tac-Toe y Batalla Naval");
+        System.out.println("🎮 === SERVIDOR DE JUEGO CLIENTE-SERVIDOR ===");
+        System.out.println("📅 Proyecto Paradigma De Programacion");
+        System.out.println("🎯 Juego: Batalla Naval");
         System.out.println("================================================");
         
         int port = GameConstants.DEFAULT_SERVER_PORT;
